@@ -1,0 +1,99 @@
+body {
+    font-family: "Inter", sans-serif; /* Mantenha sua fonte */
+    background-color:hsl(0, 0%, 8%); /* Cor de fundo que você definir */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que o body ocupe pelo menos a altura da viewport */
+    margin: 0; /* Remove margens padrão do body */
+  }
+  
+  .maincss {
+    /* Podemos definir uma largura máxima para o container principal em telas maiores */
+    max-width: 375px; /* Largura do design original (você pode ajustar) */
+    width: 90%; /* Ocupa 90% da largura em telas menores */
+    margin: 20px; /* Adiciona um pouco de espaço nas laterais em telas menores */
+  }
+  
+  .quadrado {
+    background-color: hsl(0, 0%, 12%); /* Cor de fundo do cartão */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 30px; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens horizontalmente dentro do quadrado */
+    text-align: center; /* Centraliza o texto dentro dos elementos */
+  }
+  
+  .circle {
+    width: 80px; /* Ajuste o tamanho conforme necessário */
+    height: 80px;
+    border-radius: 50%; /* Cria o formato circular */
+    overflow: hidden; /* Garante que a imagem fique dentro do círculo */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+  }
+  
+  #imagem-lateral {
+    width: 100%;
+    height: auto;
+    display: block; /* Remove qualquer espaçamento extra abaixo da imagem */
+  }
+  
+  h2 {
+    color: white;
+    margin-top: 0; /* Remove a margem superior padrão do h2 */
+    margin-bottom: 10px;
+    font-size: 1.5em; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+  
+  .verde {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 15px;
+    font-size: 0.9em;
+  }
+  
+  .little {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 0.9em;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna */
+    gap: 15px; /* Espaçamento entre os itens */
+    width: 100%; /* Ocupa a largura total do quadrado */
+  }
+  
+  .item {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none; /* Remove o sublinhado padrão de links */
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    /*display: block; /* Faz com que o item ocupe a largura total do pai */
+  }
+  
+  .item:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%); /* Altera a cor do texto ao passar o mouse */
+  }
+  
+  .attribution {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .attribution a {
+    color: hsl(75, 94%, 57%);
+    text-decoration: none;
+  }
+  
+  .attribution a:hover {
+    text-decoration: underline;
+  }
